@@ -3,7 +3,7 @@
 - `Swift` の `async/await` を使った場合のMVVMの実装方法について検討したコード
 - Wikipediaの検索APIでページを検索して表示する
 
-![screen_shot](https://github.com/fumiyuki/swift-async-await-mvvm/blob/main/image/screen_shot.png)
+<img src="https://github.com/fumiyuki/swift-async-await-mvvm/blob/main/image/screen_shot.png" width="400px">
 
 ### [SearchViewModel.swift](https://github.com/fumiyuki/swift-async-await-mvvm/blob/main/swift-async-await-mvvm/Views/SearchView/SearchViewModel.swift)
 
