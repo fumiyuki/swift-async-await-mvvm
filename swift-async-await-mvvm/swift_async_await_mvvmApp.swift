@@ -12,7 +12,7 @@ import SwiftUI
 struct swift_async_await_mvvmApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchView()
         }
     }
 }
