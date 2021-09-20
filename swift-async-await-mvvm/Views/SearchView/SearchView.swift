@@ -29,7 +29,7 @@ struct SearchView: View {
                 if !viewModel.output.pages.isEmpty {
                     Section(header: Text("検索結果")) {
                         ForEach(viewModel.output.pages) { page in
-                            NavigationLink(destination: WebView(loadUrl: page.url)) {
+                            NavigationLink(destination: WebView(url: page.url)) {
                                 Text(page.title)
                             }
                         }

@@ -10,8 +10,13 @@ import Foundation
 struct SearchRequest: Request {
     typealias Response = SearchResponse
     
-    let path: String = "/w/api.php"
-    let method: RequestMethod = .get
+    var path: String {
+        "/w/api.php"
+    }
+    
+    var method: RequestMethod {
+        .get
+    }
     
     var queryParameters: [String : String]? {
         [
