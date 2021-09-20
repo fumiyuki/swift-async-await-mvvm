@@ -2,8 +2,12 @@
 
 - `Swift` の `async/await` を使った場合のMVVMの実装方法について検討したコード
 - Wikipediaの検索APIでページを検索して表示する
-- Xcode 13 beta 5 で開発(現時点での最新)
 
+### 検証環境
+- macOS Big Sur 11.6
+- Xcode 13.0(RC版)
+
+### 動作イメージ
 <img src="https://github.com/fumiyuki/swift-async-await-mvvm/blob/main/image/screen_shot.png" width="400px">
 
 ### [SearchViewModel.swift](https://github.com/fumiyuki/swift-async-await-mvvm/blob/main/swift-async-await-mvvm/Views/SearchView/SearchViewModel.swift)
